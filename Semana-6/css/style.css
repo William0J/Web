@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Play:400,700|Slabo+27px|Droid+Sans:400,700);
+
+
+/*********************************************************************************
+										Desktop
+**********************************************************************************/
+
+
+body {
+	background-image: url(../img/bgimg.jpg);
+}
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1280px;
+}
+
+header {
+	background-image: url(../img/header.jpg);
+	width: 98%;
+	height: 150px;
+	clear: both;
+}
+.logo {
+	width: 45%;
+	height: 75%;
+	padding-left: 20px;
+	margin-top: 15px;
+	opacity: 0.9;
+	float: left;
+	color: white;
+}
+nav {
+	width: 98%;
+	opacity: 0.95;
+	margin-top: 150px;
+	background-color: black;
+	position: absolute;
+}
+nav h1 {
+	font-size: 1.25em;
+	font-family: 'Droid Sans', sans-serif;
+	color: white;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+}
+nav ul li {
+	display: inline;
+	margin-right: 1%;
+	margin-left: 1%;
+	padding: 1%;
+}
+nav ul li a img {
+	border-radius: 50%;
+}
+aside {
+	width: 30%;
+	background-color: white;
+	float: left;
+	margin-top: 75px;
+	margin-left: 1%;
+	opacity: 0.95;
+}
+aside ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+}
+aside ul li {
+	margin-right: 1%;
+	margin-left: 1%;
+	padding: 1%;
+
+}
+.nav {
+	text-decoration: none;
+	color: black;
+	font-size: 2em;
+	font-family: 'Play', sans-serif;
+	font-weight: bold;
+}
+.nav:hover {
+	color: white;
+	background-color: black;
+}
+section {
+	width: 65%;
+	height: auto;
+	margin-top: 75px;
+	margin-right: 1%;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	opacity: 0.95;
+	background: white;
+	float: right;
+}
+article {
+	width: 98%;
+	margin: 1%;
+	height: auto;
+	font-family: 'Arvo', serif;
+}
+.art-h {
+	color: #03333d;
+	font-size: 1.25em;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: bold;
+}
+p {
+	font-family: 'Slabo 27px', serif;
+	font-size: 0.9em
+}
+footer {
+	background-color: black;
+	width: 98%;
+	height: 65px
+	opacity: 0.95;
+	color: white;
+	clear: both;
+}
+.copy-r {
+	text-decoration: none;
+	font-family: 'Play', sans-serif;
+	font-size: 1em;
+	color: #FF6C00;
+}
+.copy-r:hover {
+	color: #00e6ff;
+}
+
+
+/*********************************************************************************
+										Movil
+**********************************************************************************/
+
+
+@media screen and (max-width: 600px) 
+{
+	header {
+		width: 100%;
+		height: 150px;
+	}
+	nav {
+		display: none;
+	}
+	.logo {
+		margin-top: 25px;
+		widows: 100%;
+		height: 65%;
+		float: none;
+	}
+	aside {
+		width: 100%;
+		margin-top: 25px;
+		clear: both;
+		float: none;
+	}
+	section {
+		width: 100%;
+		margin-top: 15px;
+		clear: both;
+		float: none;
+	}
+	footer {
+		width: 100%;
+	}
+}
